@@ -6,8 +6,7 @@
   "extends": [
     "plugin:react/recommended",
     "airbnb",
-    "prettier",
-    "prettier/react"
+    "prettier"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -23,7 +22,8 @@
   "ignorePatterns": [
     "*.test.js",
     "*.test.jsx",
-    "public"
+    "public",
+    "tests"
   ],
   "rules": {
     "import/prefer-default-export": "off",
